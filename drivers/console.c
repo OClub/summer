@@ -1,6 +1,6 @@
 #include "console.h"
 
-// VGA 的显示缓冲的起点是 0xB8000
+//the start point of VGA's cash is 0xB8000
 static uint16_t *video_memory = (uint16_t *)0xB8000;
 
 // 屏幕"光标"的坐标
